@@ -15,9 +15,6 @@ function sayHello(name) {
     else if (name === "Jean-Michel") {
         return "Hello Jean-Michel"
     }
-    else if (name === "Jean-Michel") {
-        return "Hello Jean-Michel"
-    }
     else  {
         return "Hello World"
     }

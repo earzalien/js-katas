@@ -13,7 +13,18 @@ You can't use Math.min(), the goal is to recreate this function!
 */
 
 // TODO add your code here
-
+function min(a, b) {
+    if ( arguments.length !== 2 || typeof a !== "number" || typeof b !== "number" || isNaN(a) || isNaN(b)) {
+        return NaN;
+    }
+    if (a < b) {
+        return a;
+    }
+    else if (b < a) {
+        return b;
+    }
+    else { return 0; }
+}
 // Begin of tests
 const assert = require("assert");
 
